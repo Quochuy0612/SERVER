@@ -1,0 +1,8 @@
+{
+    "provider ": "cloudinary",
+    "providerOptions": {
+    "cloud_name": "dtpl7inip",
+    "api_key": "562387952174729",
+    "api_secret": "E8HHVz52ucH8Fr9UcuRffju6NRU"
+    }
+}
