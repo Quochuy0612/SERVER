@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "classes",
+  "info": {
+    "name": "class",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lecturers": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "weekday": {
+      "type": "string"
+    },
+    "start_time": {
+      "type": "time"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "level": {
+      "model": "level",
+      "via": "class"
+    },
+    "end_time": {
+      "type": "time"
+    }
+  }
+}
