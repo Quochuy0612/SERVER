@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/coupon-coffees",
+      "handler": "coupon-coffee.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coupon-coffees/count",
+      "handler": "coupon-coffee.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coupon-coffees/:id",
+      "handler": "coupon-coffee.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/coupon-coffees",
+      "handler": "coupon-coffee.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/coupon-coffees/:id",
+      "handler": "coupon-coffee.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/coupon-coffees/:id",
+      "handler": "coupon-coffee.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

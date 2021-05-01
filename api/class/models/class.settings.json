@@ -12,6 +12,7 @@
   },
   "attributes": {
     "lecturers": {
+      "via": "class",
       "plugin": "users-permissions",
       "model": "user"
     },

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/coupon-studies",
+      "handler": "coupon-study.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coupon-studies/count",
+      "handler": "coupon-study.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coupon-studies/:id",
+      "handler": "coupon-study.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/coupon-studies",
+      "handler": "coupon-study.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/coupon-studies/:id",
+      "handler": "coupon-study.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/coupon-studies/:id",
+      "handler": "coupon-study.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

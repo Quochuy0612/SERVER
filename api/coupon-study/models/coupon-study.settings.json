@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coupon_studies",
+  "info": {
+    "name": "coupon_study",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "expiration_date": {
+      "type": "date"
+    },
+    "levels_applicables": {
+      "collection": "level",
+      "via": "coupon_studies",
+      "dominant": true
+    }
+  }
+}

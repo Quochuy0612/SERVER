@@ -67,6 +67,24 @@
     },
     "birthday": {
       "type": "date"
+    },
+    "class": {
+      "model": "class",
+      "via": "lecturers"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "address": {
+      "type": "string"
     }
   }
 }

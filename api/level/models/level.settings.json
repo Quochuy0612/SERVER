@@ -16,6 +16,10 @@
     "class": {
       "via": "level",
       "model": "class"
+    },
+    "coupon_studies": {
+      "via": "levels_applicables",
+      "collection": "coupon-study"
     }
   }
 }
