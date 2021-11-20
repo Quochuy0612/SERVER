@@ -16,7 +16,7 @@ module.exports = ({ env }) => ({
   email: {
     provider: 'sendgrid',
     providerOptions: {
-      apiKey: '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',
+      apiKey: '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',
     },
     settings: {
       defaultFrom: 'thecoffeestudied@gmail.com',
