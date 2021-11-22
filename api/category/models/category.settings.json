@@ -16,10 +16,6 @@
     "products": {
       "via": "category_id",
       "collection": "product"
-    },
-    "coupon_coffees": {
-      "via": "category_applicables",
-      "collection": "coupon-coffee"
     }
   }
 }
